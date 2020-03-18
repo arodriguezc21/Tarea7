@@ -15,12 +15,12 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        CCuenta cuentaUno;
+        CCuenta miCuenta;
         double saldoActual;
         
-        cuentaUno = new CCuenta("Juan López","1000-2365-85-123456789",2500,0);
-        operacionesCuenta(cuentaUno); 
-        saldoActual = cuentaUno.estado();
+        miCuenta = new CCuenta("Juan López","1000-2365-85-123456789",2500,0);
+        operacionesCuenta(miCuenta); 
+        saldoActual = miCuenta.estado();
         System.out.println("El saldo actual es"+ saldoActual );
     }
 
